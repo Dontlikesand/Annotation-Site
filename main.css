@@ -1,0 +1,33 @@
+.objectprev:hover {
+    background-color: rgb(230, 217, 229);
+}
+.objectprev::before{
+    background-color:transparent;
+}
+
+.adjprev:hover {
+    background-color: rgb(217, 230, 217);
+}
+.adjectprev::before{
+    background-color:transparent;
+}
+
+.listitem:hover {
+    background-color: rgba(255, 0, 0, 0.245);
+}
+.listitem::before{
+    background-color:transparent;
+}
+
+#para {
+    display: inline-block;
+}
+
+#list {
+    display: inline-block;
+    text-align: right;
+    align-self: right;
+    /*the float thing works, ignore the red underline :)*/
+    float: right;
+    margin-right: 70px;
+}
