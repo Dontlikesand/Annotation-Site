@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Description Website</title>
+</head>
+<body>
+<h1>Description Sumarization <button onclick="save()">Save</button><input type="file" id="upload" accept="text/.txt" onchange="load()"></h1>
+<div>
+    <textarea id="paragraph" name="name" required
+    minlength="4" maxlength="16000" cols = "167" rows="5" placeholder="write your description!" onchange = "textupdate()"></textarea>
+    <div>
+        <p id = "para"></p>
+        <p id = "list"></p>
+    </div>
+</div>
+</body>
+</html>
